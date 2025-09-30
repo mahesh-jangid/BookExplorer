@@ -12,7 +12,7 @@ import {
   IconButton,
   CircularProgress,
   Fade,
-  Chip,
+  
 } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import TitleIcon from '@mui/icons-material/Title';
@@ -30,8 +30,6 @@ const SearchForm = ({ onSearchResults, onSearchStart }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const popularGenres = ['Fantasy', 'Mystery', 'Romance', 'Science Fiction', 'Biography'];
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -45,13 +43,6 @@ const SearchForm = ({ onSearchResults, onSearchStart }) => {
     handleChange({ target: { name: field, value: '' } });
   };
 
-  const handleGenreChipClick = (genre) => {
-    setFormData((prev) => ({
-      ...prev,
-      genre,
-    }));
-    setError('');
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
