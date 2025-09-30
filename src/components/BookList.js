@@ -20,7 +20,7 @@ const BookList = ({ books = [], loading = false }) => {
       }}
     >
       {Array.from({ length: 6 }).map((_, index) => (
-        <Grid item key={index}>
+        <Grid item key={index} data-testid="book-skeleton">
           <Box 
             sx={{ 
               height: '100%',
