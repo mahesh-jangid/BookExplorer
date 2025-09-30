@@ -2,8 +2,6 @@
 
 BookExplorer is a modern, responsive web application that allows users to search and explore books using the Google Books API. Built with React and Material-UI, it provides a seamless and intuitive interface for discovering your next favorite book.
 
-![BookExplorer Screenshot](public/placeholder-book.svg)
-
 ## ✨ Features
 
 - 📖 Search books by title, author, or genre

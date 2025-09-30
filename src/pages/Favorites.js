@@ -311,11 +311,19 @@ const Favorites = () => {
             <Box
               component="img"
               src="/empty-favorites.svg"
+              onError={(e) => {
+                e.target.onerror = null; // Prevent infinite loop
+                e.target.src = "/placeholder-book.svg"; // Fallback image
+              }}
               alt="Empty favorites illustration"
               sx={{ 
                 width: '200px',
                 height: '200px',
-                opacity: 0.7
+                opacity: 0.7,
+                transition: 'opacity 0.3s ease-in-out',
+                '&:hover': {
+                  opacity: 0.9
+                }
               }}
             />
             <Box>
