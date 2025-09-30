@@ -172,23 +172,6 @@ The application uses Material-UI's theming system with:
 - Adaptive UI components
 - Touch-friendly interfaces
 
-## 🤝 Contributing
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## 📧 Contact
-
-Mahesh Jangid - [GitHub](https://github.com/mahesh-jangid)
-
-Project Link: [https://github.com/mahesh-jangid/BookExplorer](https://github.com/mahesh-jangid/BookExplorer)
 
 ## 🙏 Acknowledgments
 
